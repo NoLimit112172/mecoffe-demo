@@ -67,6 +67,7 @@
       <main class="mc-main">
         <div class="mc-map">
           <div ref="mapEl" class="mc-canvas"></div>
+          <div v-if="loading" class="mc-map-loading" role="status"><i class="fa-solid fa-spinner fa-spin"></i>正在加载地图素材，首次打开请稍候…</div>
 
           <div class="mc-map-tools">
             <label v-if="!isNetwork" class="mc-toggle" :class="{ on: walkMode }">
@@ -206,7 +207,7 @@
       </footer>
       <footer v-else class="mc-footer">
         <div class="mc-transport">
-          <button class="mc-play" :title="playing ? '暂停' : '播放'" @click="togglePlay">
+          <button class="mc-play" :title="playing ? '暂停' : '播放'" :disabled="loading" @click="togglePlay">
             <i :class="playing ? 'fa-solid fa-pause' : atEnd ? 'fa-solid fa-rotate-right' : 'fa-solid fa-play'"></i>
             <span>{{ playing ? '暂停' : (atEnd ? '重新播放' : '播放') }}</span>
           </button>
@@ -644,6 +645,8 @@ onBeforeUnmount(() => {
 .mc-main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 350px; gap: 10px; }
 .mc-map { position: relative; border-radius: 16px; overflow: hidden; background: #cfe0c3; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06), 0 4px 18px rgba(60,50,30,0.08); }
 .mc-canvas { position: absolute; inset: 0; }
+.mc-map-loading { position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; gap: 9px; background: rgba(239,245,232,.92); color: #466452; font-size: 14px; }
+.mc-play:disabled { opacity: .6; cursor: wait; }
 .mc-map-tools { position: absolute; top: 12px; right: 12px; display: flex; gap: 8px; align-items: center; }
 .mc-icon-btn { width: 34px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: rgba(255,255,255,0.95); color: var(--ink);
   display: grid; place-items: center; font-size: 13px; transition: all 0.15s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
