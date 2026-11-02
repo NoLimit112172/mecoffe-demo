@@ -1,0 +1,4457 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "snapshot_public_demo_100",
+  "snapshot_revision": 1,
+  "dataset_kind": "public_synthetic",
+  "public_synthetic": true,
+  "provenance": {
+    "origin": "independently_generated_fixture",
+    "source_url": "https://github.com/NoLimit112172/mecoffe-demo",
+    "network_seed": 731947,
+    "note": "所有人物、属性与关系均由此公开脚本独立生成，不对应真实人员或已执行实验。"
+  },
+  "nodes": [
+    {
+      "entity_id": "merchant_001",
+      "role": "merchant",
+      "name": "示例咖啡A",
+      "description": "公开演示中的虚构咖啡商家，不对应实际经营主体。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 36
+      },
+      "dynamic_attributes": {
+        "promotion_goal": "演示商品信息如何沿合成关注网络传播。"
+      }
+    },
+    {
+      "entity_id": "merchant_002",
+      "role": "merchant",
+      "name": "示例咖啡B",
+      "description": "公开演示中的虚构咖啡商家，不对应实际经营主体。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 36
+      },
+      "dynamic_attributes": {
+        "promotion_goal": "演示商品信息如何沿合成关注网络传播。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_001",
+      "role": "undergraduate_consumer",
+      "name": "本科生01",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_002",
+      "role": "undergraduate_consumer",
+      "name": "本科生02",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_003",
+      "role": "undergraduate_consumer",
+      "name": "本科生03",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_004",
+      "role": "undergraduate_consumer",
+      "name": "本科生04",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_005",
+      "role": "undergraduate_consumer",
+      "name": "本科生05",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_006",
+      "role": "undergraduate_consumer",
+      "name": "本科生06",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_007",
+      "role": "undergraduate_consumer",
+      "name": "本科生07",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_008",
+      "role": "undergraduate_consumer",
+      "name": "本科生08",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_009",
+      "role": "undergraduate_consumer",
+      "name": "本科生09",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_010",
+      "role": "undergraduate_consumer",
+      "name": "本科生10",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_011",
+      "role": "undergraduate_consumer",
+      "name": "本科生11",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_012",
+      "role": "undergraduate_consumer",
+      "name": "本科生12",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_013",
+      "role": "undergraduate_consumer",
+      "name": "本科生13",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_014",
+      "role": "undergraduate_consumer",
+      "name": "本科生14",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_015",
+      "role": "undergraduate_consumer",
+      "name": "本科生15",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_016",
+      "role": "undergraduate_consumer",
+      "name": "本科生16",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_017",
+      "role": "undergraduate_consumer",
+      "name": "本科生17",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_018",
+      "role": "undergraduate_consumer",
+      "name": "本科生18",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_019",
+      "role": "undergraduate_consumer",
+      "name": "本科生19",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_020",
+      "role": "undergraduate_consumer",
+      "name": "本科生20",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_021",
+      "role": "undergraduate_consumer",
+      "name": "本科生21",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_022",
+      "role": "undergraduate_consumer",
+      "name": "本科生22",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_023",
+      "role": "undergraduate_consumer",
+      "name": "本科生23",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_024",
+      "role": "undergraduate_consumer",
+      "name": "本科生24",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_025",
+      "role": "undergraduate_consumer",
+      "name": "本科生25",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_026",
+      "role": "undergraduate_consumer",
+      "name": "本科生26",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_027",
+      "role": "undergraduate_consumer",
+      "name": "本科生27",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_028",
+      "role": "undergraduate_consumer",
+      "name": "本科生28",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_029",
+      "role": "undergraduate_consumer",
+      "name": "本科生29",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_030",
+      "role": "undergraduate_consumer",
+      "name": "本科生30",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_031",
+      "role": "undergraduate_consumer",
+      "name": "本科生31",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_032",
+      "role": "undergraduate_consumer",
+      "name": "本科生32",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_033",
+      "role": "undergraduate_consumer",
+      "name": "本科生33",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_034",
+      "role": "undergraduate_consumer",
+      "name": "本科生34",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_035",
+      "role": "undergraduate_consumer",
+      "name": "本科生35",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_036",
+      "role": "undergraduate_consumer",
+      "name": "本科生36",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_037",
+      "role": "undergraduate_consumer",
+      "name": "本科生37",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_038",
+      "role": "undergraduate_consumer",
+      "name": "本科生38",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_039",
+      "role": "undergraduate_consumer",
+      "name": "本科生39",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_040",
+      "role": "undergraduate_consumer",
+      "name": "本科生40",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_041",
+      "role": "undergraduate_consumer",
+      "name": "本科生41",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_042",
+      "role": "undergraduate_consumer",
+      "name": "本科生42",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_043",
+      "role": "undergraduate_consumer",
+      "name": "本科生43",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_044",
+      "role": "undergraduate_consumer",
+      "name": "本科生44",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_045",
+      "role": "undergraduate_consumer",
+      "name": "本科生45",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_046",
+      "role": "undergraduate_consumer",
+      "name": "本科生46",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_047",
+      "role": "undergraduate_consumer",
+      "name": "本科生47",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_048",
+      "role": "undergraduate_consumer",
+      "name": "本科生48",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_049",
+      "role": "undergraduate_consumer",
+      "name": "本科生49",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_050",
+      "role": "undergraduate_consumer",
+      "name": "本科生50",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_051",
+      "role": "undergraduate_consumer",
+      "name": "本科生51",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_052",
+      "role": "undergraduate_consumer",
+      "name": "本科生52",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_053",
+      "role": "undergraduate_consumer",
+      "name": "本科生53",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_054",
+      "role": "undergraduate_consumer",
+      "name": "本科生54",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_055",
+      "role": "undergraduate_consumer",
+      "name": "本科生55",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_056",
+      "role": "undergraduate_consumer",
+      "name": "本科生56",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_057",
+      "role": "undergraduate_consumer",
+      "name": "本科生57",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_058",
+      "role": "undergraduate_consumer",
+      "name": "本科生58",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_059",
+      "role": "undergraduate_consumer",
+      "name": "本科生59",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_060",
+      "role": "undergraduate_consumer",
+      "name": "本科生60",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_061",
+      "role": "undergraduate_consumer",
+      "name": "本科生61",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_062",
+      "role": "undergraduate_consumer",
+      "name": "本科生62",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_063",
+      "role": "undergraduate_consumer",
+      "name": "本科生63",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_064",
+      "role": "undergraduate_consumer",
+      "name": "本科生64",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_065",
+      "role": "undergraduate_consumer",
+      "name": "本科生65",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_066",
+      "role": "undergraduate_consumer",
+      "name": "本科生66",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_067",
+      "role": "undergraduate_consumer",
+      "name": "本科生67",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 21
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_068",
+      "role": "undergraduate_consumer",
+      "name": "本科生68",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 18
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_069",
+      "role": "undergraduate_consumer",
+      "name": "本科生69",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 19
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_undergrad_070",
+      "role": "undergraduate_consumer",
+      "name": "本科生70",
+      "description": "独立生成的本科生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 20
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_001",
+      "role": "graduate_consumer",
+      "name": "研究生01",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 24
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_002",
+      "role": "graduate_consumer",
+      "name": "研究生02",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 25
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_003",
+      "role": "graduate_consumer",
+      "name": "研究生03",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 26
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_004",
+      "role": "graduate_consumer",
+      "name": "研究生04",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 23
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_005",
+      "role": "graduate_consumer",
+      "name": "研究生05",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 24
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_006",
+      "role": "graduate_consumer",
+      "name": "研究生06",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 25
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_007",
+      "role": "graduate_consumer",
+      "name": "研究生07",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 26
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_008",
+      "role": "graduate_consumer",
+      "name": "研究生08",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 23
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_009",
+      "role": "graduate_consumer",
+      "name": "研究生09",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 24
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_010",
+      "role": "graduate_consumer",
+      "name": "研究生10",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 25
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_011",
+      "role": "graduate_consumer",
+      "name": "研究生11",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 26
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_012",
+      "role": "graduate_consumer",
+      "name": "研究生12",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 23
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_013",
+      "role": "graduate_consumer",
+      "name": "研究生13",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 24
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_014",
+      "role": "graduate_consumer",
+      "name": "研究生14",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 25
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_015",
+      "role": "graduate_consumer",
+      "name": "研究生15",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 26
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_016",
+      "role": "graduate_consumer",
+      "name": "研究生16",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 23
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_017",
+      "role": "graduate_consumer",
+      "name": "研究生17",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 24
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_018",
+      "role": "graduate_consumer",
+      "name": "研究生18",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 25
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_019",
+      "role": "graduate_consumer",
+      "name": "研究生19",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 26
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_graduate_020",
+      "role": "graduate_consumer",
+      "name": "研究生20",
+      "description": "独立生成的研究生示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 23
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_001",
+      "role": "teacher_consumer",
+      "name": "教师01",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 32
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_002",
+      "role": "teacher_consumer",
+      "name": "教师02",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 33
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_003",
+      "role": "teacher_consumer",
+      "name": "教师03",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 34
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_004",
+      "role": "teacher_consumer",
+      "name": "教师04",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 31
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_005",
+      "role": "teacher_consumer",
+      "name": "教师05",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 32
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_006",
+      "role": "teacher_consumer",
+      "name": "教师06",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 33
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "美式"
+        ],
+        "coffee_budget_30d_cny": 96,
+        "personality": "示例：关注预算",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_007",
+      "role": "teacher_consumer",
+      "name": "教师07",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "female",
+        "age": 34
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "拿铁"
+        ],
+        "coffee_budget_30d_cny": 132,
+        "personality": "示例：愿意了解新品",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    },
+    {
+      "entity_id": "public_teacher_008",
+      "role": "teacher_consumer",
+      "name": "教师08",
+      "description": "独立生成的教师示例人物，所有属性均为虚构。",
+      "static_attributes": {
+        "gender": "male",
+        "age": 31
+      },
+      "dynamic_attributes": {
+        "coffee_preferences": [
+          "无糖咖啡"
+        ],
+        "coffee_budget_30d_cny": 168,
+        "personality": "示例：关注同伴消息",
+        "purchase_strategy": "公开规则演示：获知品牌且示例余额充足时，按配置抽样购买。"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_undergrad_001",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_001",
+      "target": "public_undergrad_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_001",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_001",
+      "target": "public_undergrad_040",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_001",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_002",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_002",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_002",
+      "target": "public_teacher_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_002",
+      "target": "public_undergrad_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_002",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_003",
+      "target": "public_graduate_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_003",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_003",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_003",
+      "target": "public_undergrad_054",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_003",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_004",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_004",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_004",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_004",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_004",
+      "target": "public_undergrad_068",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_005",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_005",
+      "target": "public_undergrad_026",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_005",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_005",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_005",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_006",
+      "target": "public_graduate_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_006",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_006",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_006",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_006",
+      "target": "public_undergrad_046",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_007",
+      "target": "public_graduate_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_007",
+      "target": "public_teacher_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_007",
+      "target": "public_undergrad_026",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_007",
+      "target": "public_undergrad_054",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_007",
+      "target": "public_undergrad_063",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_008",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_008",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_008",
+      "target": "public_undergrad_054",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_008",
+      "target": "public_undergrad_056",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_008",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_009",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_009",
+      "target": "public_graduate_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_009",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_009",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_009",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_010",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_010",
+      "target": "public_graduate_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_010",
+      "target": "public_undergrad_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_010",
+      "target": "public_undergrad_036",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_010",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_011",
+      "target": "public_undergrad_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_011",
+      "target": "public_undergrad_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_011",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_011",
+      "target": "public_undergrad_029",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_011",
+      "target": "public_undergrad_039",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_012",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_012",
+      "target": "public_undergrad_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_012",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_012",
+      "target": "public_undergrad_029",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_012",
+      "target": "public_undergrad_058",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_013",
+      "target": "public_graduate_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_013",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_013",
+      "target": "public_undergrad_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_013",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_013",
+      "target": "public_undergrad_057",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "public_undergrad_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "public_undergrad_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "public_undergrad_027",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_015",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_015",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_015",
+      "target": "public_undergrad_024",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_015",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_015",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_016",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_016",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_016",
+      "target": "public_undergrad_034",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_016",
+      "target": "public_undergrad_065",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_016",
+      "target": "public_undergrad_068",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_017",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_017",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_017",
+      "target": "public_undergrad_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_017",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_017",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_018",
+      "target": "public_graduate_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_018",
+      "target": "public_undergrad_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_018",
+      "target": "public_undergrad_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_018",
+      "target": "public_undergrad_031",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_018",
+      "target": "public_undergrad_040",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_019",
+      "target": "public_graduate_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_019",
+      "target": "public_teacher_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_019",
+      "target": "public_undergrad_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_019",
+      "target": "public_undergrad_046",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_019",
+      "target": "public_undergrad_069",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_020",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_020",
+      "target": "public_graduate_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_020",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_020",
+      "target": "public_undergrad_059",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_020",
+      "target": "public_undergrad_065",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_021",
+      "target": "public_graduate_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_021",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_021",
+      "target": "public_undergrad_023",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_021",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_021",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_022",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_022",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_022",
+      "target": "public_teacher_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_022",
+      "target": "public_undergrad_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_022",
+      "target": "public_undergrad_056",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_023",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_023",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_023",
+      "target": "public_undergrad_046",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_023",
+      "target": "public_undergrad_051",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_023",
+      "target": "public_undergrad_068",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_024",
+      "target": "public_graduate_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_024",
+      "target": "public_undergrad_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_024",
+      "target": "public_undergrad_036",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_024",
+      "target": "public_undergrad_041",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_024",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_025",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_025",
+      "target": "public_graduate_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_025",
+      "target": "public_teacher_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_025",
+      "target": "public_undergrad_023",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_025",
+      "target": "public_undergrad_064",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_026",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_026",
+      "target": "public_graduate_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_026",
+      "target": "public_graduate_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_026",
+      "target": "public_undergrad_024",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_026",
+      "target": "public_undergrad_029",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_027",
+      "target": "public_graduate_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_027",
+      "target": "public_undergrad_036",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_027",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_027",
+      "target": "public_undergrad_065",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_027",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_028",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_028",
+      "target": "public_graduate_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_028",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_028",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_028",
+      "target": "public_undergrad_064",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_029",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_029",
+      "target": "public_undergrad_036",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_029",
+      "target": "public_undergrad_048",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_029",
+      "target": "public_undergrad_059",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_029",
+      "target": "public_undergrad_070",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_030",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_030",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_030",
+      "target": "public_teacher_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_030",
+      "target": "public_undergrad_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_030",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_031",
+      "target": "public_graduate_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_031",
+      "target": "public_undergrad_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_031",
+      "target": "public_undergrad_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_031",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_031",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_032",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_032",
+      "target": "public_graduate_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_032",
+      "target": "public_undergrad_034",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_032",
+      "target": "public_undergrad_035",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_032",
+      "target": "public_undergrad_059",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_033",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_033",
+      "target": "public_undergrad_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_033",
+      "target": "public_undergrad_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_033",
+      "target": "public_undergrad_030",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_033",
+      "target": "public_undergrad_038",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_034",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_034",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_034",
+      "target": "public_undergrad_027",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_034",
+      "target": "public_undergrad_041",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_034",
+      "target": "public_undergrad_065",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_035",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_035",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_035",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_035",
+      "target": "public_undergrad_048",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_035",
+      "target": "public_undergrad_069",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_036",
+      "target": "public_undergrad_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_036",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_036",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_036",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_036",
+      "target": "public_undergrad_058",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_037",
+      "target": "public_undergrad_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_037",
+      "target": "public_undergrad_024",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_037",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_037",
+      "target": "public_undergrad_056",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_037",
+      "target": "public_undergrad_070",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_038",
+      "target": "public_graduate_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_038",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_038",
+      "target": "public_teacher_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_038",
+      "target": "public_undergrad_024",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_038",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_039",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_039",
+      "target": "public_undergrad_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_039",
+      "target": "public_undergrad_021",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_039",
+      "target": "public_undergrad_038",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_039",
+      "target": "public_undergrad_055",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_040",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_040",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_040",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_040",
+      "target": "public_undergrad_054",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_040",
+      "target": "public_undergrad_070",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_041",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_041",
+      "target": "public_teacher_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_041",
+      "target": "public_undergrad_031",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_041",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_041",
+      "target": "public_undergrad_057",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_042",
+      "target": "public_graduate_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_042",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_042",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_042",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_042",
+      "target": "public_undergrad_039",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_043",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_043",
+      "target": "public_teacher_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_043",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_043",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_043",
+      "target": "public_undergrad_051",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "public_graduate_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "public_graduate_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "public_undergrad_062",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "public_undergrad_066",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_045",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_045",
+      "target": "public_graduate_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_045",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_045",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_045",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_046",
+      "target": "public_graduate_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_046",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_046",
+      "target": "public_undergrad_035",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_046",
+      "target": "public_undergrad_036",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_046",
+      "target": "public_undergrad_052",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_047",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_047",
+      "target": "public_graduate_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_047",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_047",
+      "target": "public_undergrad_054",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_047",
+      "target": "public_undergrad_058",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_048",
+      "target": "public_teacher_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_048",
+      "target": "public_undergrad_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_048",
+      "target": "public_undergrad_047",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_048",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_048",
+      "target": "public_undergrad_062",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_049",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_049",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_049",
+      "target": "public_undergrad_031",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_049",
+      "target": "public_undergrad_041",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_049",
+      "target": "public_undergrad_062",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "public_undergrad_039",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "public_undergrad_070",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_051",
+      "target": "public_graduate_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_051",
+      "target": "public_teacher_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_051",
+      "target": "public_undergrad_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_051",
+      "target": "public_undergrad_052",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_051",
+      "target": "public_undergrad_070",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_052",
+      "target": "public_undergrad_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_052",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_052",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_052",
+      "target": "public_undergrad_062",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_052",
+      "target": "public_undergrad_068",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_053",
+      "target": "public_graduate_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_053",
+      "target": "public_teacher_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_053",
+      "target": "public_undergrad_028",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_053",
+      "target": "public_undergrad_065",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_053",
+      "target": "public_undergrad_066",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_054",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_054",
+      "target": "public_undergrad_041",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_054",
+      "target": "public_undergrad_057",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_054",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_054",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_055",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_055",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_055",
+      "target": "public_graduate_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_055",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_055",
+      "target": "public_undergrad_030",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_056",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_056",
+      "target": "public_undergrad_034",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_056",
+      "target": "public_undergrad_042",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_056",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_056",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_057",
+      "target": "public_graduate_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_057",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_057",
+      "target": "public_teacher_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_057",
+      "target": "public_undergrad_028",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_057",
+      "target": "public_undergrad_067",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "public_graduate_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_059",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_059",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_059",
+      "target": "public_undergrad_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_059",
+      "target": "public_undergrad_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_059",
+      "target": "public_undergrad_023",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_060",
+      "target": "public_teacher_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_060",
+      "target": "public_teacher_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_060",
+      "target": "public_undergrad_026",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_060",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_060",
+      "target": "public_undergrad_066",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_061",
+      "target": "public_teacher_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_061",
+      "target": "public_undergrad_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_061",
+      "target": "public_undergrad_025",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_061",
+      "target": "public_undergrad_054",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_061",
+      "target": "public_undergrad_068",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_062",
+      "target": "public_graduate_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_062",
+      "target": "public_undergrad_046",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_062",
+      "target": "public_undergrad_047",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_062",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_062",
+      "target": "public_undergrad_063",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_063",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_063",
+      "target": "public_graduate_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_063",
+      "target": "public_undergrad_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_063",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_063",
+      "target": "public_undergrad_052",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_064",
+      "target": "public_graduate_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_064",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_064",
+      "target": "public_undergrad_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_064",
+      "target": "public_undergrad_038",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_064",
+      "target": "public_undergrad_052",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_065",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_065",
+      "target": "public_graduate_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_065",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_065",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_065",
+      "target": "public_undergrad_034",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_066",
+      "target": "public_undergrad_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_066",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_066",
+      "target": "public_undergrad_042",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_066",
+      "target": "public_undergrad_048",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_066",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_067",
+      "target": "public_teacher_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_067",
+      "target": "public_undergrad_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_067",
+      "target": "public_undergrad_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_067",
+      "target": "public_undergrad_028",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_067",
+      "target": "public_undergrad_034",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_068",
+      "target": "public_graduate_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_068",
+      "target": "public_graduate_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_068",
+      "target": "public_teacher_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_068",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_068",
+      "target": "public_undergrad_069",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_069",
+      "target": "public_graduate_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_069",
+      "target": "public_undergrad_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_069",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_069",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_069",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_070",
+      "target": "public_graduate_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_070",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_070",
+      "target": "public_undergrad_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_070",
+      "target": "public_undergrad_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_070",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_001",
+      "target": "public_teacher_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_001",
+      "target": "public_undergrad_021",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_001",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_001",
+      "target": "public_undergrad_034",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_001",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_002",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_002",
+      "target": "public_undergrad_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_002",
+      "target": "public_undergrad_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_002",
+      "target": "public_undergrad_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_002",
+      "target": "public_undergrad_031",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_003",
+      "target": "public_undergrad_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_003",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_003",
+      "target": "public_undergrad_040",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_003",
+      "target": "public_undergrad_055",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_003",
+      "target": "public_undergrad_058",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_004",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_004",
+      "target": "public_undergrad_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_004",
+      "target": "public_undergrad_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_004",
+      "target": "public_undergrad_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_004",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_005",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_005",
+      "target": "public_teacher_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_005",
+      "target": "public_undergrad_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_005",
+      "target": "public_undergrad_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_005",
+      "target": "public_undergrad_025",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "public_undergrad_028",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "public_undergrad_048",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_007",
+      "target": "public_graduate_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_007",
+      "target": "public_teacher_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_007",
+      "target": "public_teacher_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_007",
+      "target": "public_undergrad_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_007",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_008",
+      "target": "public_graduate_009",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_008",
+      "target": "public_undergrad_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_008",
+      "target": "public_undergrad_033",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_008",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_008",
+      "target": "public_undergrad_055",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_009",
+      "target": "public_graduate_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_009",
+      "target": "public_undergrad_018",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_009",
+      "target": "public_undergrad_041",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_009",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_009",
+      "target": "public_undergrad_063",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_010",
+      "target": "public_graduate_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_010",
+      "target": "public_undergrad_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_010",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_010",
+      "target": "public_undergrad_027",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_010",
+      "target": "public_undergrad_063",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_011",
+      "target": "public_undergrad_010",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_011",
+      "target": "public_undergrad_045",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_011",
+      "target": "public_undergrad_058",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_011",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_011",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_012",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_012",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_012",
+      "target": "public_undergrad_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_012",
+      "target": "public_undergrad_026",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_012",
+      "target": "public_undergrad_047",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_013",
+      "target": "public_graduate_014",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_013",
+      "target": "public_undergrad_026",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_013",
+      "target": "public_undergrad_040",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_013",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_013",
+      "target": "public_undergrad_052",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_014",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_014",
+      "target": "public_undergrad_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_014",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_014",
+      "target": "public_undergrad_037",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_014",
+      "target": "public_undergrad_039",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_015",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_015",
+      "target": "public_undergrad_025",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_015",
+      "target": "public_undergrad_049",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_015",
+      "target": "public_undergrad_050",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_015",
+      "target": "public_undergrad_063",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_016",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_016",
+      "target": "public_undergrad_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_016",
+      "target": "public_undergrad_030",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_016",
+      "target": "public_undergrad_042",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_016",
+      "target": "public_undergrad_053",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_017",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_017",
+      "target": "public_graduate_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_017",
+      "target": "public_undergrad_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_017",
+      "target": "public_undergrad_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_017",
+      "target": "public_undergrad_064",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_018",
+      "target": "public_undergrad_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_018",
+      "target": "public_undergrad_031",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_018",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_018",
+      "target": "public_undergrad_051",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_018",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_019",
+      "target": "public_graduate_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_019",
+      "target": "public_graduate_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_019",
+      "target": "public_graduate_015",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_019",
+      "target": "public_graduate_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_019",
+      "target": "public_teacher_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_020",
+      "target": "public_graduate_006",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_020",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_020",
+      "target": "public_undergrad_025",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_020",
+      "target": "public_undergrad_028",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_020",
+      "target": "public_undergrad_061",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_001",
+      "target": "public_graduate_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_001",
+      "target": "public_undergrad_011",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_001",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_001",
+      "target": "public_undergrad_039",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_001",
+      "target": "public_undergrad_060",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_002",
+      "target": "public_teacher_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_002",
+      "target": "public_undergrad_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_002",
+      "target": "public_undergrad_028",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_002",
+      "target": "public_undergrad_039",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_002",
+      "target": "public_undergrad_057",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_003",
+      "target": "public_undergrad_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_003",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_003",
+      "target": "public_undergrad_029",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_003",
+      "target": "public_undergrad_056",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_003",
+      "target": "public_undergrad_070",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_004",
+      "target": "public_graduate_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_004",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_004",
+      "target": "public_teacher_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_004",
+      "target": "public_undergrad_020",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_004",
+      "target": "public_undergrad_038",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_005",
+      "target": "public_graduate_004",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_005",
+      "target": "public_undergrad_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_005",
+      "target": "public_undergrad_013",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_005",
+      "target": "public_undergrad_043",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_005",
+      "target": "public_undergrad_051",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_006",
+      "target": "public_teacher_003",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_006",
+      "target": "public_undergrad_022",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_006",
+      "target": "public_undergrad_030",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_006",
+      "target": "public_undergrad_032",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_006",
+      "target": "public_undergrad_056",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "public_graduate_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "public_graduate_007",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "public_undergrad_008",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "public_undergrad_057",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "public_undergrad_066",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_008",
+      "target": "public_graduate_012",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_008",
+      "target": "public_graduate_019",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_008",
+      "target": "public_teacher_005",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_008",
+      "target": "public_undergrad_016",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_008",
+      "target": "public_undergrad_017",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_005",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_010",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_011",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_013",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_014",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_004",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_017",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_020",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_026",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_038",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_046",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_051",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_064",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_066",
+      "target": "merchant_001",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_002",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_006",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_graduate_012",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_006",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_teacher_007",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_002",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_006",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_014",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_015",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_019",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_030",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_031",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_035",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_036",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_042",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_044",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_050",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_054",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_056",
+      "target": "merchant_002",
+      "relation": "follow"
+    },
+    {
+      "source": "public_undergrad_058",
+      "target": "merchant_002",
+      "relation": "follow"
+    }
+  ]
+}

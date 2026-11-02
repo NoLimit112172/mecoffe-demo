@@ -1,0 +1,17 @@
+{
+  "schema": "mecoffe.public-demo-config.v1",
+  "dataset_kind": "public_synthetic",
+  "network_seed": 731947,
+  "event_seed": 11987354,
+  "days": 30,
+  "advertisement_interval_days": 4,
+  "advertisement_recipients": 10,
+  "max_purchases_per_day": 6,
+  "purchase_probability": 0.63,
+  "prices_fen": {"merchant_001": 800, "merchant_002": 1100},
+  "assumptions": [
+    "所有人物、属性、关系和行为均为独立合成的公开示例，不使用团队输入或实际运行记录。",
+    "示例咖啡 A/B 的价格为虚构的 8 元和 11 元，不代表真实商品价格。",
+    "关注网络、购买概率、预算和传播规则只用于检查场景交互，不用于经营预测。"
+  ]
+}
